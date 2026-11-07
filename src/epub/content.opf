@@ -30,42 +30,52 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Suppliants</dc:title>
 		<meta property="file-as" refines="#title">Suppliants, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="dcterms:alternative" refines="#title">The Suppliant Maidens</meta>
+		<meta property="dcterms:alternative" refines="#title">The Suppliant Women</meta>
+		<meta property="dcterms:alternative" refines="#title">The Supplices</meta>
+		<dc:subject id="subject-1">Greek drama (Tragedy)--Translations into English</dc:subject>
+		<dc:subject id="subject-2">Greek literature, Hellenistic</dc:subject>
+		<dc:subject id="subject-3">Mythology, Greek</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
+		<meta property="term" refines="#subject-1">sh2008118391</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
-		<meta property="schema:genre">TAG</meta>
+		<meta property="term" refines="#subject-2">sh85057177</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85089396</meta>
+		<meta property="schema:genre">Drama</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="schema:abstract">ABSTRACT</meta>
 		<dc:description>
 			DESCRIPTION
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20110811</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://archive.org/details/suppliantwomensu00aesc</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
-		<link href="https://en.wikipedia.org/wiki/The_Suppliants" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/The_Suppliants_(Aeschylus)" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/aeschylus_the-suppliants_gilbert-murray" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Aeschylus</dc:creator>
-		<meta property="file-as" refines="#author">CONTRIBUTOR_SORT</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Aeschylus</meta>
+		<meta property="alternate-script" refines="#author">Αἰσχύλος</meta>
 		<link href="https://en.wikipedia.org/wiki/Aeschylus" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79055702.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Gilbert Murray</dc:contributor>
 		<meta property="file-as" refines="#translator">Murray, Gilbert</meta>
-		<meta property="schema:alternateName" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="schema:alternateName" refines="#translator">George Gilbert Aimé Murray</meta>
 		<link href="https://en.wikipedia.org/wiki/Gilbert_Murray" refines="#translator" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79043229.html" refines="#translator" rel="schema:sameAs"/>
+		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<meta property="role" refines="#translator" scheme="marc:relators">win</meta>
+		<dc:contributor id="artist">John William Waterhouse</dc:contributor>
+		<meta property="file-as" refines="#artist">Waterhouse, John William</meta>
+		<link href="https://en.wikipedia.org/wiki/John_William_Waterhouse" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79044158.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Barbara Watson</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Watson, Barbara</meta>
@@ -77,9 +87,9 @@
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders Canada</meta>
 		<link href="https://www.pgdpcanada.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<dc:contributor id="producer-1">Emma Sweeney</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Sweeney, Emma</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
